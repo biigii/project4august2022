@@ -1,0 +1,39 @@
+.news {
+  background-color: lightblue;
+}
+
+.news h2 {
+  text-align: center;
+}
+
+.news img {}
+
+.news p {
+  font-size: 24px;
+  color: orange;
+}
+
+.btns {
+  background-color: lightgreen;
+}
+
+.btns__button {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.btns__button--danger {
+  background-color: red;
+  color: white;
+}
+
+.btns__button--info {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.btns__button--warning {
+  background-color: yellow;
+  color: black
+}
