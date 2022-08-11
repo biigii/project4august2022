@@ -1,55 +1,63 @@
-.news {
-  background-color: lightblue;
+/* 1-0-0 */
+#heading {
+  /* color: pink */
 }
 
-.news h2 {
-  text-align: center;
-}
-
-.news img {}
-
-.news p {
-  font-size: 24px;
+/* 0-1-1 */
+h1.heading {
   color: orange;
 }
 
-.btns {
-  background-color: lightgreen;
-}
-
-.btns__button, 
-.blog__btn {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgray;
-}
-
-/* .blog__btn {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgray;
-} */
-
-.btns__button--danger,
-.blog__btn--danger {
-  background-color: red;
-  color: white;
-}
-
-/* .blog__btn--danger {
-  background-color: red;
-  color: white;
-} */
-
-.btns__button--info {
-  background-color: lightblue;
-  color: darkblue;
-}
-
-.btns__button--warning {
-  background-color: yellow;
-  color: black
+/* 0-1-0 */
+.heading {
+  color: purple;
 }
 
 
 
+/* 0-0-1 */
+h1 {
+  color: red
+}
+
+/* 0-0-1 */
+h1 {
+  color: blue;
+  color: green;
+}
+
+/* id-class-selector
+0-0-0 */
+
+
+
+/* 0-2-1 */
+.news p.text {
+  color: purple;
+}
+
+/* 0-1-1 */
+.news p{
+  color: red;
+}
+
+/* 0-2-0 */
+.news .text {
+  color: blue;
+}
+
+section.content p{
+  color: yellow;
+}
+
+/* 0-4-3 */
+/*  not good */
+section.content .block span.links a.right {
+  color: red;
+}
+
+/* good */
+/* 0-2-1 */
+section.content a.right {
+  color: green;
+}
