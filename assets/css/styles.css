@@ -17,16 +17,29 @@
   background-color: lightgreen;
 }
 
-.btns__button {
+.btns__button, 
+.blog__btn {
   font-size: 30px;
   font-weight: bold;
   color: darkgray;
 }
 
-.btns__button--danger {
+/* .blog__btn {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgray;
+} */
+
+.btns__button--danger,
+.blog__btn--danger {
   background-color: red;
   color: white;
 }
+
+/* .blog__btn--danger {
+  background-color: red;
+  color: white;
+} */
 
 .btns__button--info {
   background-color: lightblue;
@@ -37,3 +50,6 @@
   background-color: yellow;
   color: black
 }
+
+
+
