@@ -1,63 +1,24 @@
-/* 1-0-0 */
-#heading {
-  /* color: pink */
+body {
+  /* background-color: #999999; */
 }
-
-/* 0-1-1 */
 h1.heading {
-  color: orange;
-}
-
-/* 0-1-0 */
-.heading {
-  color: purple;
-}
-
-
-
-/* 0-0-1 */
-h1 {
-  color: red
-}
-
-/* 0-0-1 */
-h1 {
-  color: blue;
-  color: green;
-}
-
-/* id-class-selector
-0-0-0 */
-
-
-
-/* 0-2-1 */
-.news p.text {
-  color: purple;
-}
-
-/* 0-1-1 */
-.news p{
-  color: red;
-}
-
-/* 0-2-0 */
-.news .text {
-  color: blue;
-}
-
-section.content p{
-  color: yellow;
-}
-
-/* 0-4-3 */
-/*  not good */
-section.content .block span.links a.right {
-  color: red;
-}
-
-/* good */
-/* 0-2-1 */
-section.content a.right {
-  color: green;
+  color: #ffee22;
+  /* color: red;
+  background-color: lightgreen; */
+  /* red green blue */
+  /* 0 1 2 3 4 5 6 7 8 9 a b c d e f */
+  /* color: #0000ff; */
+  /* color: #00f;
+  color: #f33;
+  opacity: 0.75;
+  background-color: #3d2b2b;
+  color: #1d3285; */
+  /* color: #000;
+  color: #ff00ff;
+  color: rgb(0, 0, 0);
+  color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25); */
+  /* opacity: 0.5; */
+  /* color: hsl(200, 100%, 50%); */
+  background-color: hsla(120, 100%, 50%, 0.5);
 }
